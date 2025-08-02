@@ -36,6 +36,6 @@ function sendEmail(event) {
   const subject = encodeURIComponent(`Portfolio Inquiry from ${name}`);
   const body = encodeURIComponent(`${message}\n\nContact email: ${email}`);
   // Replace 'your.email@example.com' with your actual email address
-  window.location.href = `mailto:your.email@example.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:kotanagarohith14319@gmail.com?subject=${subject}&body=${body}`;
   return false;
 }
